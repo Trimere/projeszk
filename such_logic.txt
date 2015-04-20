@@ -1,0 +1,17 @@
+Attributumok:
+	- erő
+		-> támadó érték (esetleg + tárgy értéke)
+		-> hordható súly
+	- állóképesség
+		-> életerő
+	- ügyesség
+		-> védekezési érték (+ tárgy érték + pajzs esetlegesen)
+		
+Perk-ök:
+	- fegyverspecializáció
+	- scavenger
+	- fast metabolism (rövidebb poison time)
+	- ...
+
+inventory
+	- plusz bool (equipped)

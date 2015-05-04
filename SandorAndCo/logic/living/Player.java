@@ -2,7 +2,7 @@ package sandorandco.logic.living;
 
 /**
  *
- * @author t
+ * @author Robert Motyka
  */
 public class Player extends Character{
     private double lvlXPNeeded;

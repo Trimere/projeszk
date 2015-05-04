@@ -15,6 +15,7 @@ public abstract class Character {
     private int con;
     private double xp;
     
+    private int hp;
     private int attack;
     private int defense;
     private int maxInvWeight;
@@ -33,5 +34,7 @@ public abstract class Character {
         inventory = new Inventory(size);
     }
     
-    
+    public Inventory getInventory(){
+        return inventory;
+    }
 }

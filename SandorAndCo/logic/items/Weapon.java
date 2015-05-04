@@ -1,9 +1,7 @@
 package sandorandco.logic.items;
 
 /**
- *
- * @author t
+ *  @author Robert Motyka
+ *  Marker interface.
  */
-public interface Weapon{
-    
-}
+public interface Weapon{}

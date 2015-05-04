@@ -5,6 +5,8 @@
  */
 package sandorandco.views;
 
+import controllers.Events;
+import controllers.Listeners;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
@@ -52,10 +54,17 @@ public class MainView extends JFrame{
     private JLabel champProfile;
     
     
+    Listeners listener = new Listeners(this);
+    Events event=new Events();
+    
+    
+    
+    
     
     public MainView() {
         
         //frame beállítása
+        addKeyListener(event.event);
         setVisible(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(new Dimension(1024,768));
@@ -137,10 +146,17 @@ public class MainView extends JFrame{
         gomb1 = new JButton();
         gomb2 = new JButton();
         gomb3 = new JButton();
+        
+        gomb1.addActionListener(listener.gomb1Listener);
+        gomb2.addActionListener(listener.gomb2Listener);
+        gomb3.addActionListener(listener.gomb3Listener);
+        
+        
             
         secondLeftbot.add(gomb1);
         secondLeftbot.add(gomb2);
         secondLeftbot.add(gomb3);
+        
         
         
         

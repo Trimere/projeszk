@@ -22,6 +22,7 @@ public abstract class Character {
     
     private Inventory inventory;
     
+    
     Character(String name){
         this.name = name;
         lvl = 1;

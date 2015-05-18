@@ -1,9 +1,9 @@
 package sandorandco.logic.items;
 
 /**
- *
- * @author t
+ *  @author Robert Motyka
+ *  Marker interface.
  */
 public interface Armor{
-    
+	String getType();
 }

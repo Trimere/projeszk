@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="sandorandco.SandorTest" time="0.002" tests="1" errors="1" skipped="0" failures="0">
+<testsuite name="sandorandco.SandorTest" time="0.008" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_45\jre\bin"/>
@@ -64,10 +64,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testApp" classname="sandorandco.SandorTest" time="0.002">
-    <error type="java.lang.NullPointerException:">java.lang.NullPointerException: null
-	at roleplayinggame.logic.Dice.throwDice(Dice.java:26)
-	at sandorandco.SandorTest.testApp(SandorTest.java:21)
-</error>
-  </testcase>
+  <testcase name="testDice3d20" classname="sandorandco.SandorTest" time="0.001"/>
+  <testcase name="testDiced100" classname="sandorandco.SandorTest" time="0"/>
+  <testcase name="testDice6d4" classname="sandorandco.SandorTest" time="0"/>
+  <testcase name="testDiced20" classname="sandorandco.SandorTest" time="0.001"/>
+  <testcase name="testDiced4" classname="sandorandco.SandorTest" time="0.003"/>
+  <testcase name="testDice10d100" classname="sandorandco.SandorTest" time="0.003"/>
 </testsuite>

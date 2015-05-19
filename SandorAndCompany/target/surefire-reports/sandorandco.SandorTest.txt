@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: sandorandco.SandorTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE! - in sandorandco.SandorTest
+testApp(sandorandco.SandorTest)  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at roleplayinggame.logic.Dice.throwDice(Dice.java:26)
+	at sandorandco.SandorTest.testApp(SandorTest.java:21)
+
